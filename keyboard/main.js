@@ -75,6 +75,7 @@ function appendKeys(e, r, numberInputs) {
 };
 let infoBox = document.createElement('p');
 infoBox.innerHTML ='Смена языка shift+alt или кнпкой.'
+container.append(infoBox)
 // вызов функции языка
 
 function lengCheng(a) {
